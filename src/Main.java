@@ -31,6 +31,12 @@ public class Main {
         return primeList.toArray(new Integer[0]);
     }
 
+    /**
+     * Function that check if a number is prime.
+     *
+     * @param n Number to check
+     * @return True if it´s prime, and false if it´s not prime.
+     * */
     public static boolean PrimeCheker(int n){
 
         if (n > 3){
